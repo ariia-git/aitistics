@@ -30,4 +30,4 @@ See the [methodology](docs/methodology.md) for recording principles.
 
 ## Licence
 
-No licence has been selected for this archive.
+See the [MIT licence](LICENSE) preserved from the existing repository.
