@@ -2,32 +2,24 @@
 
 # Aitistics
 
-Aitistics documents practical test runs of AI-generated video tools, models, workflows, and generation techniques. This repository is an experiment archive. Rendered videos are published externally on YouTube; representative frames, original configuration/settings, and metadata are preserved here where practical.
+Aitistics shares examples of AI-generated video, exploring what different models, tools, and generation techniques can create. Browse the demonstrations, watch the finished videos, and explore the frames and settings behind each run.
 
-## Current tests
+**[Watch on YouTube](https://www.youtube.com/channel/UCOkqzZaDc-c6KaZiBxHOayw)** · **[Explore the runs](#explore-the-runs)**
 
-| System | Archive |
-| --- | --- |
-| Deforum | [Deforum test runs](runs/deforum/README.md) |
+## Explore the runs
 
-## Archive structure
+The collection begins with Deforum. More examples will be grouped by their generation system as they are added.
 
-Runs live under `runs/<system>/<number>-<test-name>/`. Each system has an independent numbering sequence. Each run contains a README, metadata.yaml, original settings under config/, and representative frames under images/.
+| System | Run | Model | Demonstration | Video |
+| --- | --- | --- | --- | --- |
+| [Deforum](runs/deforum/README.md) | [001 — Smiley Art](runs/deforum/001-smiley-art/README.md) | DreamShaper 8 | A 3D animation using smiley-themed psychedelic environment prompts, with five representative frames and the original settings. | [Watch ↗](https://youtu.be/JHh2gOb6LOk) |
 
-Additional generation systems will live adjacent to deforum under runs/ when actual runs exist.
+## Behind each video
 
-## Recording a run
+Each run page brings the demonstration and its source material together: a link to the completed video on YouTube, representative frames, generation details, and original configuration files where available. Explore the visuals or use the settings as a starting point for your own experiments.
 
-1. Create the next numbered run directory within the relevant system.
-2. Adapt the [run README](templates/run-readme.md) and [metadata](templates/metadata.yaml) templates.
-3. Preserve available original settings and representative frames with their source filenames.
-4. Add the published YouTube URL and update the system index.
-5. Review relative links and check for private paths and sensitive information before committing.
-
-Keep rendered video outputs outside Git. Images are ordinary Git files; Git LFS is not used.
-
-See the [methodology](docs/methodology.md) for recording principles.
+For details about how runs are documented, see the [methodology](docs/methodology.md). File organisation and publishing instructions live in the [archive workflow](docs/archive-workflow.md).
 
 ## Licence
 
-See the [MIT licence](LICENSE) preserved from the existing repository.
+See the [MIT licence](LICENSE).
