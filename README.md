@@ -10,9 +10,11 @@ Aitistics shares examples of AI-generated video, exploring what different models
 
 The collection begins with Deforum. More examples will be grouped by their generation system as they are added.
 
-| System | Run | Model | Demonstration | Video |
-| --- | --- | --- | --- | --- |
-| [Deforum](runs/deforum/README.md) | [001 — Smiley Art](runs/deforum/001-smiley-art/README.md) | DreamShaper 8 | A 3D animation using smiley-themed psychedelic environment prompts, with five representative frames and the original settings. | [Watch ↗](https://youtu.be/JHh2gOb6LOk) |
+| Preview | System | Run | Model | Demonstration | Video |
+| --- | --- | --- | --- | --- | --- |
+| <img src="runs/deforum/001-smiley-art/images/20261024023625_000000010.png" alt="First saved output frame from Smiley Art" width="160"> | [Deforum](runs/deforum/README.md) | [001 — Smiley Art](runs/deforum/001-smiley-art/README.md) | DreamShaper 8 | A 3D animation generated from smiley-themed psychedelic environment prompts. | [Watch ↗](https://youtu.be/JHh2gOb6LOk) |
+
+Previews and screenshots are output frames from the rendered videos, not input reference images.
 
 ## Behind each video
 
