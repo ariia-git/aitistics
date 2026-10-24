@@ -1,0 +1,7 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+# Preserve original source configuration line endings.
+runs/**/config/** -text

@@ -1,0 +1,32 @@
+# Rendered video outputs
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mpeg
+*.mpg
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+
+# Temporary files and caches
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+node_modules/
+
+# Render intermediates; curated images and config remain tracked
+render-cache/
+render-intermediates/

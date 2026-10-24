@@ -1,0 +1,23 @@
+id:
+title:
+type:
+created:
+
+youtube:
+  url:
+
+config:
+  file:
+
+images: []
+
+generation:
+  model:
+  resolution:
+  fps:
+  frames:
+  seed:
+  sampler:
+  scheduler:
+
+notes:

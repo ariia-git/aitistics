@@ -1,0 +1,29 @@
+id: "001"
+title: "Smiley Art"
+type: "deforum"
+# Date inferred from original render timestamp in filenames.
+created: "2026-10-24"
+youtube:
+  url: "https://youtu.be/JHh2gOb6LOk"
+config:
+  file: "config/20261024023625_smiley_art_deforum.txt"
+images:
+  - "images/20261024023625_000000010.png"
+  - "images/20261024023625_000000058.png"
+  - "images/20261024023625_000000170.png"
+  - "images/20261024023625_000000682.png"
+  - "images/20261024023625_000001489.png"
+generation:
+  model: "dreamshaper_8.safetensors"
+  model_hash: "879db523c3"
+  resolution:
+    width: 768
+    height: 432
+  fps: 15
+  frames: 2000
+  seed: 132457
+  seed_behavior: "schedule"
+  seed_schedule: "0:(481203917), 400:(736215084), 800:(192673451), 1200:(865317240), 1600:(347921608)"
+  sampler: "Euler a"
+  steps: 22
+  animation_mode: "3D"
